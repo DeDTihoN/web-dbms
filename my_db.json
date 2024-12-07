@@ -1,0 +1,18 @@
+{
+  "new table": {
+    "schema": [
+      {
+        "name": "id",
+        "type": "integer",
+        "enum_values": null,
+        "auto_increment": true
+      }
+    ],
+    "rows": [
+      {
+        "id": 1
+      }
+    ],
+    "auto_increment_value": 2
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "new table": {
+    "schema": [
+      {
+        "name": "id",
+        "type": "integer",
+        "enum_values": null,
+        "auto_increment": true
+      },
+      {
+        "name": "new_column",
+        "type": "integer",
+        "enum_values": null,
+        "auto_increment": false
+      },
+      {
+        "name": "enum_column",
+        "type": "enum",
+        "enum_values": [
+          "value1",
+          "value2"
+        ],
+        "auto_increment": false
+      }
+    ],
+    "rows": [
+      {
+        "new_column": 4,
+        "id": 1,
+        "enum_column": null
+      },
+      {
+        "new_column": 6,
+        "enum_column": "value1",
+        "id": 2
+      },
+      {
+        "new_column": 3434,
+        "enum_column": "value2",
+        "id": 3
+      }
+    ],
+    "auto_increment_value": 4
+  }
+}
